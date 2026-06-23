@@ -1,3 +1,5 @@
+package v2;
+
 public interface TestData {
 
     String FIRST_NAME = "T";
