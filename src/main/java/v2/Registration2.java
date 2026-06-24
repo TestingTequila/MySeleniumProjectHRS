@@ -61,7 +61,7 @@ public class Registration2 {
         WebElement continueButton = driver.findElement(By.id("submitbtn"));
         continueButton.click();
 
-        //8. Validate Registration status
+        //8. Validate dummy.Registration status
         String actualPageTitle = driver.getTitle();
         if (actualPageTitle.equals(TestData.EXPECTED_PAGE_TITLE)) {
             System.out.println(TestData.REGISTER_SUCCESS_MSG);

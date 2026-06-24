@@ -1,3 +1,5 @@
+package v5;
+
 public interface TestData {
 
     String FIRST_NAME = "T";
@@ -9,7 +11,7 @@ public interface TestData {
     String SUBSCRIPTION = "Monthly";
     String TELEPHONE = "6755575";
     String EXPECTED_PAGE_TITLE = "Your Account Has Been Created!";
-    String REGISTER_SUCCESS_MSG = "Registration Successful";
+    String REGISTER_SUCCESS_MSG = "dummy.Registration Successful";
     String REGISTER_FAILURE_MSG = "Already Registered, Please use different email....";
     String LOGIN_EMAIL_ID = "ben.fletcher@janbask.com";
     String LOGIN_PASSWORD = "test@1234";

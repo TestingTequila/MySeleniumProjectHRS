@@ -21,7 +21,7 @@ public class Login {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
 
 //        4- Click on login Link
-        WebElement loginLink = driver.findElement(By.xpath("//a[text()='Login']"));
+        WebElement loginLink = driver.findElement(By.xpath("//a[text()='dummy.Login']"));
         loginLink.click();
 
 //        5- Enter correct email
@@ -32,16 +32,16 @@ public class Login {
         WebElement passwordTextBox = driver.findElement(By.xpath("//input[@id='input-password']"));
         passwordTextBox.sendKeys("test@1234");
 
-//        7- Click on Login button
+//        7- Click on dummy.Login button
         WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
         loginButton.click();
 
-//        8- Validate Login Status
+//        8- Validate dummy.Login Status
         String pageTitle = driver.getTitle();
         if (pageTitle.equals("My Account")) {
-            System.out.println("Login is successful...");
+            System.out.println("dummy.Login is successful...");
         } else {
-            System.out.println("Login Failed.....");
+            System.out.println("dummy.Login Failed.....");
         }
 
 //        9- Close the browser

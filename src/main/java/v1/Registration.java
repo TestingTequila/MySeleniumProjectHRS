@@ -64,7 +64,7 @@ public class Registration {
 
         String pageTitle =driver.getTitle();
         if(pageTitle.equals("Your Account Has Been Created!")) {
-            System.out.println("Registration Successful");
+            System.out.println("dummy.Registration Successful");
             System.out.println(pageTitle);
         }
         else
@@ -72,7 +72,7 @@ public class Registration {
             System.out.println("Already Registered, Please use different email....");
         }
 
-        //8. Validate Registration status
+        //8. Validate dummy.Registration status
 
 
         //9. Close the browser

@@ -21,7 +21,7 @@ public class Login2 {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(AppData.WAIT_TIME));
 
 //        4- Click on login Link
-        WebElement loginLink = driver.findElement(By.xpath("//a[text()='Login']"));
+        WebElement loginLink = driver.findElement(By.xpath("//a[text()='dummy.Login']"));
         loginLink.click();
 
 //        5- Enter correct email
@@ -32,11 +32,11 @@ public class Login2 {
         WebElement passwordTextBox = driver.findElement(By.xpath("//input[@id='input-password']"));
         passwordTextBox.sendKeys(TestData.LOGIN_PASSWORD);
 
-//        7- Click on Login button
+//        7- Click on dummy.Login button
         WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
         loginButton.click();
 
-//        8- Validate Login Status
+//        8- Validate dummy.Login Status
         String actualLoginPageTitle = driver.getTitle();
         if (actualLoginPageTitle.equals(TestData.EXPECTED_LOGIN_PAGE_TITLE)) {
             System.out.println(TestData.LOGIN_SUCCESS_MSG);

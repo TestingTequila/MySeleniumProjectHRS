@@ -1,4 +1,4 @@
-package v3;
+package v4;
 
 public interface TestData {
 
@@ -16,6 +16,6 @@ public interface TestData {
     String LOGIN_EMAIL_ID = "ben.fletcher@janbask.com";
     String LOGIN_PASSWORD = "test@1234";
     String EXPECTED_LOGIN_PAGE_TITLE = "My Account";
-    String LOGIN_SUCCESS_MSG = "dummy.Login is successful...";
-    String LOGIN_FAILURE_MSG = "dummy.Login Failed.....";
+    String LOGIN_SUCCESS_MSG = "Login is successful...";
+    String LOGIN_FAILURE_MSG = "Login Failed.....";
 }

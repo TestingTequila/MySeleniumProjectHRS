@@ -11,11 +11,11 @@ public interface TestData {
     String SUBSCRIPTION = "Monthly";
     String TELEPHONE = "6755575";
     String EXPECTED_PAGE_TITLE = "Your Account Has Been Created!";
-    String REGISTER_SUCCESS_MSG = "Registration Successful";
+    String REGISTER_SUCCESS_MSG = "dummy.Registration Successful";
     String REGISTER_FAILURE_MSG = "Already Registered, Please use different email....";
     String LOGIN_EMAIL_ID = "ben.fletcher@janbask.com";
     String LOGIN_PASSWORD = "test@1234";
     String EXPECTED_LOGIN_PAGE_TITLE = "My Account";
-    String LOGIN_SUCCESS_MSG = "Login is successful...";
-    String LOGIN_FAILURE_MSG = "Login Failed.....";
+    String LOGIN_SUCCESS_MSG = "dummy.Login is successful...";
+    String LOGIN_FAILURE_MSG = "dummy.Login Failed.....";
 }
