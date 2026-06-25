@@ -1,11 +1,11 @@
-package v5;
+package v6;
 
 import org.openqa.selenium.WebDriver;
 import v6.pom.AccountLogin;
 import v6.pom.MyAccount;
 import v6.pom.YourStore;
 
-public class Login2 {
+public class Login {
     public static void main(String[] args) {
 //        1- Open the browser and Enter the Url
         WebDriver driver = utilities.Browsers.launchBrowser(AppData.BROWSER_NAME);
