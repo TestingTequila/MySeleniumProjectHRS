@@ -28,6 +28,10 @@ public class AccountLogin {
         ca.doSendKeys(emailTextBox, TestData.LOGIN_EMAIL_ID);
     }
 
+    public void enterInvalidEmail() {
+        ca.doSendKeys(emailTextBox, TestData.INVALID_LOGIN_EMAIL_ID);
+    }
+
     //Entering correct password
     public void enterPassword() {
         ca.doSendKeys(passwordTextBox, TestData.LOGIN_PASSWORD);

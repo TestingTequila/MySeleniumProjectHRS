@@ -1,0 +1,31 @@
+Test is about 3 A's
+
+@Annotation are used with methods
+@BeforeSuite
+@BeforeTest     : This annotation gets executed before @BeforeClass annotation and that too once
+@BeforeClass    : This annotation gets executed before @BeforeMethod annotation and that too once
+@BeforeMethod   : This annotation gets executed before every test case with @Test annotation
+@Test           : This annotation represents the test case
+@AfterMethod    : This annotation gets executed after every test case with @Test annotation
+@AfterClass     : This annotation gets executed After @AfterMethod annotation and that too once
+@AfterTest      : This annotation gets executed After @AfterClass annotation and that too once
+@AfterSuite
+-----------
+@DataProvider
+@Parameters
+
+Attributes are used with annotations
+Priority
+Enabled
+dependsOnMethods
+alwaysRun
+groups
+dependsOnGroups
+timeOut
+
+Assertions are used to validate the test cases
+assertTrue
+assertFalse
+asserEquals
+assertNotEquals
+Hard Assertions Vs Soft Assertions

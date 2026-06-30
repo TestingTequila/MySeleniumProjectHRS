@@ -14,6 +14,7 @@ public interface TestData {
     String REGISTER_SUCCESS_MSG = "dummy.Registration Successful";
     String REGISTER_FAILURE_MSG = "Already Registered, Please use different email....";
     String LOGIN_EMAIL_ID = "ben.fletcher@janbask.com";
+    String INVALID_LOGIN_EMAIL_ID = "ben.fletcher95@janbask.com";
     String LOGIN_PASSWORD = "test@1234";
     String EXPECTED_LOGIN_PAGE_TITLE = "My Account";
     String LOGIN_SUCCESS_MSG = "Login is successful...";
