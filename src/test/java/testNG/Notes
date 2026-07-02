@@ -15,13 +15,15 @@ Test is about 3 A's
 @Parameters
 
 Attributes are used with annotations
-Priority
-Enabled
-dependsOnMethods
-alwaysRun
-groups
-dependsOnGroups
-timeOut
+Priority          : This is used to set the order of execution of test cases
+Enabled           : This is responsible for setting if we want to execute a test case or not
+dependsOnMethods  : This is used to set dependency clause b/w two methods
+alwaysRun         : This will always run, no matter what
+groups            : This is used to group the test cases
+dependsOnGroups   : This will execute only if all the test case of a group mentioned is passed, else this will be ignored
+timeOut           :
+
+Test cases are executed in alphabetical order, this is the default execution mode of testNG
 
 Assertions are used to validate the test cases
 assertTrue

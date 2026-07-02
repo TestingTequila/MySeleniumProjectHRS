@@ -18,7 +18,7 @@ public class Login {
         driver = utilities.Browsers.launchBrowser(AppData.BROWSER_NAME);
     }
 
-    @Test
+    @Test(priority = 2, enabled = true)
     public void login1() {
         YourStore ys = new YourStore(driver);
         ys.clickOnMyAccountIcon();
@@ -36,7 +36,7 @@ public class Login {
         ma.validateLoginStatus();
     }
 
-    @Test
+    @Test(priority = 3, enabled = true)
     public void login2() {
         YourStore ys = new YourStore(driver);
         ys.clickOnMyAccountIcon();
@@ -54,7 +54,7 @@ public class Login {
         ma.validateLoginStatus();
     }
 
-    @Test
+    @Test(timeOut = 100000, priority = 1)
     public void login3() {
         YourStore ys = new YourStore(driver);
         ys.clickOnMyAccountIcon();
